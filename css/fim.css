@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(231, 214, 214);
+}
+
+
+.cabecalho{
+    background: linear-gradient(rgb(32, 1, 1),rgb(196, 6, 6));
+    text-align: center;
+    color: white;
+    height: 120px;
+    padding-top: 25px;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Trade Winds', cursive;
+    color:  black;
+}
+
+.imagem {
+    padding-top: 20px;
+    
+    width: 800px;
+    height: 500px;
+}
+
+.rodape{
+
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+
+}
+
+@media (max-width: 600px) {
+    .flex > div{ 
+         width: 100%;
+}
+img{ width: 100%;}
+.flex {width: 100%;}
+}

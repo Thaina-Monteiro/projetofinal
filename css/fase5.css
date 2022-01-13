@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+.cabecalho{
+    background: linear-gradient(rgb(32, 1, 1),rgb(196, 6, 6));
+    text-align: center;
+    color: white;
+    height: 120px;
+    padding-top: 25px;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px;
+}
+
+.caixa {
+    text-align: center;
+    width: 600px;
+    height: 560px;
+    border: solid 3px black;
+    margin: 2% auto;
+    padding: 10px ;
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem {
+    width: 450px ;
+    height: 300px ;
+}
+
+.alternativa{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+
+.botao {
+    background-color: red;
+    width: 200px;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    box-shadow: 4px 4px 4px black;
+    
+}
+
+
+@media (max-width: 600px) {
+    .flex > div{ 
+         width: 100%;
+}
+img{ width: 100%;}
+.flex {width: 100%;}
+}
